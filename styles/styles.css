@@ -15,10 +15,6 @@
     --aside-text-color: #333;
 }
 
-main img{
-    float: right;
-}
-
 
 nav {
     background-color:var(--primary-bg-color);
@@ -76,6 +72,10 @@ aside h2 {
 aside img {
     width: 200px;
     height: auto;
+}
+
+main img {
+    float: right;
 }
 
 
