@@ -15,6 +15,9 @@
     --aside-text-color: #333;
 }
 
+main img{
+    float: right;
+}
 
 
 nav {
@@ -38,7 +41,7 @@ img {
     border: var(--border);
     padding: 2px;
     box-shadow:  var(--box-shadow);
-    float: right;
+    
 }
 
 p {
