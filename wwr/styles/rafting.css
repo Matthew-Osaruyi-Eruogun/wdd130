@@ -239,6 +239,13 @@ footer {
     margin-bottom: 15px;
 }
 
+#company-info iframe {
+    border: 1px solid #ccc; /* Example border style */
+    width: 100%; /* Make it responsive */
+    max-width: 600px; /* Maximum width */
+}
+
+
 #company-info p,
 #company-info a {
     font-size: 1rem;
