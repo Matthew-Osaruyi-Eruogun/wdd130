@@ -71,6 +71,7 @@ nav a {
     background-color: var(--secondary-color);
     align-items: center;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .history h2 {
@@ -133,6 +134,7 @@ nav a {
     padding: 20px;
     background-color: var(--secondary-color);
     text-align: center;
+    margin-bottom: 20px;
     
 }
 
@@ -186,6 +188,7 @@ footer {
     padding: 40px 20px;
     background-color: var(--secondary-color);
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .hero h2 {
