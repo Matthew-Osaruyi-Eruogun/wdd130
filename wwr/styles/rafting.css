@@ -18,7 +18,6 @@ body {
     margin: auto;
 }
 
-
 /* Header Styles with Grid */
 header {
     margin: 1rem auto;
@@ -32,13 +31,11 @@ header {
     border-bottom: 1px solid #ccc;
 	max-width: 1500px;
     margin-left:1px ;
-    
 }
 
 header img {
     height: 180px;
     margin-left: 10px;
-        
 }
 
 nav {
@@ -63,7 +60,6 @@ nav a {
     border: 1px solid var(--accent-color);
     font-size: 0.8rem;
 }
-
 
 /* History Section Grid Layout */
 .history {
@@ -93,7 +89,6 @@ nav a {
     text-align: left;
 }
 
-
 .history-image {
     width: auto;
     max-width: 400px;
@@ -120,9 +115,8 @@ nav a {
 
 .adventures h2 {
     color: var(--text-color);
-    font-size: 2.5rem; 
+    font-size: 2.5rem;
     margin-bottom: 10px;
-    
 }
 
 .adventure-grid {
@@ -138,7 +132,6 @@ nav a {
     background-color: var(--secondary-color);
     text-align: center;
     margin-bottom: 20px;
-    
 }
 
 .adventures figure {
@@ -149,14 +142,11 @@ nav a {
 }
 
 .adventures img {
-    
     width: 100%;
     height: auto;
     border-radius: 4px;
     object-fit: cover;
-          
 }
-
 
 .adventures figcaption {
     text-align: center;
@@ -219,7 +209,6 @@ footer {
     border-radius: 8px;
 }
 
-
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     header {
@@ -236,10 +225,119 @@ footer {
     }
 }
 
-.social-links img {
-    width: 30px;
-    height: 30px;
+/* Contact Us Page Specific Styles */
+#company-info {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
 }
 
+#company-info h2 {
+    font-size: 2rem;
+    color: var(--accent-color);
+    margin-bottom: 15px;
+}
 
+#company-info p,
+#company-info a {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--text-color);
+}
 
+#employee-profiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#employee-profiles figure {
+    width: 30%;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#employee-profiles img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#employee-profiles figcaption {
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
+
+#contact-form {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#contact-form h2 {
+    font-size: 2rem;
+    color: var(--accent-color);
+    margin-bottom: 15px;
+}
+
+#contact-form label {
+    display: block;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+#contact-form textarea {
+    resize: vertical;
+}
+
+#contact-form input[type="radio"] {
+    margin-right: 5px;
+}
+
+#contact-form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+#contact-form button {
+    background-color: var(--accent-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
+
+#contact-form button:hover {
+    background-color: #4a4442;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    #employee-profiles {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #employee-profiles figure {
+        width: 80%;
+    }
+}
