@@ -31,6 +31,7 @@ header {
     border-bottom: 1px solid #ccc;
 	max-width: 1500px;
     margin-left:1px ;
+    margin-bottom: 10px;
 }
 
 header img {
@@ -46,7 +47,7 @@ nav ul {
     display: flex;
     gap: 0px;
     list-style: none;
-    margin: 0px;
+    margin: 0;
     padding: 0;
 }
 
@@ -70,7 +71,7 @@ nav a {
     background-color: var(--secondary-color);
     align-items: center;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .history h2 {
@@ -131,7 +132,7 @@ nav a {
     padding: 20px;
     background-color: var(--secondary-color);
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .adventures figure {
@@ -181,7 +182,7 @@ footer {
     padding: 40px 20px;
     background-color: var(--secondary-color);
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .hero h2 {
@@ -229,8 +230,8 @@ footer {
 #company-info {
     background-color: var(--secondary-color);
     padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 20px;
+    border-radius: 0px;
+    margin-bottom: 10px;
 }
 
 #company-info h2 {
@@ -257,10 +258,10 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-bottom: 20px;
     background-color: var(--secondary-color);
-    padding: 20px;
-    border-radius: 8px;
+    padding: 0px;
+    border-radius: 0;
+    margin-bottom: 10px;
 }
 
 #employee-profiles figure {
@@ -283,7 +284,8 @@ footer {
 #contact-form {
     background-color: var(--secondary-color);
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 0px;
+    margin-bottom: 10px;
 }
 
 #contact-form h2 {
@@ -302,7 +304,7 @@ footer {
 #contact-form input[type="text"],
 #contact-form input[type="email"],
 #contact-form textarea {
-    width: 100%;
+    width: 50%;
     padding: 8px;
     margin-top: 5px;
     border: 1px solid #ccc;
@@ -347,4 +349,143 @@ footer {
     #employee-profiles figure {
         width: 80%;
     }
+}
+
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+
+.hero-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 150px;
+   
+}
+
+.hero-message {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+   
+}
+
+.hero-message h2 {
+    font-size: 3rem;
+    color: white;
+}
+
+.hero-message p {
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* Newsletter Signup */
+#newsletter-signup {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    margin-top: 200px;
+}
+
+#newsletter-signup form {
+    display: inline-block;
+    color: white;
+    
+}
+
+#newsletter-signup label {
+    display: block;
+    color: white;
+}
+
+#newsletter-signup input {
+    margin-bottom: 20px;
+    margin-right: 0px;
+}
+
+#site-offerings h2{
+    font-size: 2rem;
+    color: white;
+}
+
+/* Call To Action */
+#call-to-action {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #274156;
+    color: white;
+}
+
+/* Grid Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.grid-item img {
+   width:400px;
+   height:auto;
+}
+
+.grid-item p{
+font: size 1rem;
+color: white;
+
+} 
+
+/* Call to Action */
+#call-to-action-trip {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    margin-top: 100px;
+    font-size: 2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #274156;
+    color: white;
+}
+
+/* Grid Layout for Trips */
+#trip-descriptions .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    color: white;
+}
+
+#trip-descriptions .grid-item img {
+   width: 300px;;
+   height: 200px;
+   color: white;
+}
+.grid-item p{
+font-size:1rem;
+color: white;
+}
+
+#trip-table {
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+#trip-descriptions h2 {
+    color: white;
+    margin-top: 50px;
 }
